@@ -99,6 +99,7 @@ jobs:
           deleteincompletescan: true
           workflowApp: true
           debug: ${{ inputs.debug }}
+          teams: sessions-sandbox
 
       - name: Veracode Policy Results
         id: prepare-results
