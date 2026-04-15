@@ -76,3 +76,4 @@ jobs:
           deleteincompletescan: true
           workflowApp: true
           debug: ${{ github.event.client_payload.user_config.debug }}
+          teams: sessions-sandbox
